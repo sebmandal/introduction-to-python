@@ -44,7 +44,7 @@ my_list.reverse()         # Reverses the order of items in the list
 
 ### Slicing Lists
 
-You can extract a portion of a list, known as a slice, using the following syntax:
+You can extract a portion of a list, known as a slice. Sliced lists start at the given `start` index, and ends at the element before the `end` index. You can slice a list using the following syntax:
 
 ```python
 sub_list = my_list[start:end]
