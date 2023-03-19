@@ -1,6 +1,50 @@
-# Chapter 3: Control Structures
+# Chapter 3: Comparisons and Control Structures
 
-Control structures allow you to add logic and flow control to your Python programs. In this chapter, we will discuss conditional statements, looping constructs, and loop control statements.
+Control structures allow you to add logic and flow control to your Python programs. In this chapter, we will discuss conditional statements, looping constructs, and loop control statements. However, before this, it is important to know the comparisons in Python.
+
+## Comparisons
+
+In Python, comparisons are used to compare two values and determine their relationship. Comparisons always result in a Boolean value (`True` or `False`) that indicates whether the comparison is true or false.
+
+The following comparison operators are available in Python:
+
+| Operator | Description                   |
+|----------|-------------------------------|
+| `==`     | equal to                      |
+| `!=`     | not equal to                  |
+| `>`      | greater than                  |
+| `<`      | less than                     |
+| `>=`     | greater than or equal to      |
+| `<=`     | less than or equal to         |
+
+To compare two values in Python, you simply use one of the comparison operators between the values. For example:
+
+```python
+x = 10
+y = 5
+
+print(x > y)  # Output: True
+print(x < y)  # Output: False
+print(x == y) # Output: False
+print(x != y) # Output: True
+```
+
+In the above example, we compare the values of `x` and `y` using the `>` (greater than), `<` (less than), `==` (equal to), and `!=` (not equal to) operators.
+
+It's important to note that the `==` operator is used for equality comparison, while the `=` operator is used for variable assignment. Mixing up these operators can lead to errors in your code.
+
+You can also chain comparisons together using the and and or keywords. For example:
+
+```python
+x = 10
+y = 5
+z = 7
+
+print(x > y and y < z)  # Output: True
+print(x < y or y > z)   # Output: False
+```
+
+In the above example, we use the `and` keyword to chain two comparisons together: `x > y` and `y < z`. This means that both comparisons must be true for the overall result to be `True`. We also use the `or` keyword to chain two comparisons together: `x < y` and `y > z`. This means that either comparison can be true for the overall result to be `True`.
 
 ## Conditional Statements (if, elif, else)
 
