@@ -1,6 +1,6 @@
 # Introduction to Python
 
-Welcome to the world of Python programming! Python is a versatile, powerful, and easy-to-learn programming language, making it an excellent choice for beginners and experienced developers alike. In this book, we will guide you through the process of learning Python, starting from the very basics and gradually moving towards more advanced topics. By the end of this course, you will have a solid understanding of Python's core concepts and be ready to start building your own Python projects.
+Welcome to the world of Python programming! Python is a versatile, powerful, and easy-to-learn programming language, making it an excellent choice for beginners and experienced developers alike. In this guide, we will guide you through the process of learning Python, starting from the very basics and gradually moving towards more advanced topics. By the end of this course, you will have a solid understanding of Python's core concepts and be ready to start building your own Python projects.
 
 Let's start by exploring the history of Python, its different versions, and how to get set up with the right tools to begin your Python journey.
 
