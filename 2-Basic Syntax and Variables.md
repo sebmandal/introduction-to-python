@@ -134,6 +134,7 @@ Reading input:
 ```python
 name = input("Enter your name: ")
 print("Hello, " + name + "!")
+# Output: Hello, [name]!
 ```
 
 Displaying output:
@@ -143,7 +144,29 @@ x = 10
 y = 5
 result = x + y
 
-print("The sum of", x, "and", y, "is", result)
+print("The sum of ", x, " and ", y, " is ", result)
+# Output: The sum of 10 and 5 is 15
+```
+
+An alternative to using `+` in prints, is to use `formatted strings`. You can do this by putting `f` in front of your strings, and putting code inside `{}` tags in the string.
+
+Reading input using formatted strings:
+
+```python
+name = input("Enter your name: ")
+print(f"Hello, {name}!")
+# Output: Hello, [name]!
+```
+
+Displaying output:
+
+```python
+x = 10
+y = 5
+result = x + y
+
+print(f"The sum of {x} and {y} is {result}")
+# Output: The sum of 10 and 5 is 15
 ```
 
 In the next chapter, we will explore control structures in Python, including conditional statements and looping constructs, to add more complex logic and behavior to your programs.
